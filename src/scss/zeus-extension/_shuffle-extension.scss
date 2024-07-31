@@ -1,0 +1,42 @@
+/*!
+ * Shuffle CSS Extension for Bootstrap
+ * Copyright 2021 The Shuffle Team
+ */
+
+@import "zeus-variables";
+
+body {
+    @if $enable-antialiasing {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+.alert {
+    color: $alert-color;
+    font-size: $alert-font-size;
+
+    border-top-width: $alert-border-top-width;
+    border-right-width: $alert-border-right-width;
+    border-bottom-width: $alert-border-bottom-width;
+    border-left-width: $alert-border-left-width;
+
+    border-top-right-radius: $alert-border-top-right-radius;
+    border-top-left-radius: $alert-border-top-left-radius;
+    border-bottom-right-radius: $alert-border-bottom-right-radius;
+    border-bottom-left-radius: $alert-border-bottom-left-radius;
+}
+
+.max-w-0 { max-width: 0rem; }
+.max-w-none { max-width: none; }
+.max-w-xs { max-width: 20rem; }
+.max-w-sm { max-width: 24rem; }
+.max-w-md { max-width: 28rem; }
+.max-w-lg { max-width: 32rem; }
+.max-w-xl { max-width: 36rem; }
+.max-w-2xl { max-width: 42rem; }
+.max-w-3xl { max-width: 48rem; }
+.max-w-4xl { max-width: 56rem; }
+.max-w-5xl { max-width: 64rem; }
+.max-w-6xl { max-width: 72rem; }
+.max-w-7xl { max-width: 80rem; }

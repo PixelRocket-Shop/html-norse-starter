@@ -1,0 +1,262 @@
+// Variables
+
+$enable-rfs: true !default;
+$enable-antialiasing: true !default;
+$enable-negative-margins: true !default;
+
+$min-contrast-ratio: 2 !default;
+
+$white: #fff !default;
+$black: #000 !default;
+
+$gray-100: #E6EAF1 !default;
+$gray-200: #DADFE9 !default;
+$gray-300: #C8CEDA !default;
+$gray-400: #ACB4C4 !default;
+$gray-500: #838EA4 !default;
+$gray-600: #657084 !default;
+$gray-700: #374151 !default;
+$gray-800: #1f2937 !default;
+$gray-900: #0A2463 !default;
+
+$blue: #45C1FF !default;
+$indigo: #818cf8 !default;
+$purple: #c084fc !default;
+$pink: #f472b6 !default;
+$red: #FF4564 !default;
+$orange: #E4572E !default;
+$yellow: #E9D758 !default;
+$teal: #297373 !default;
+
+$primary: $red !default;
+$secondary: #FFEBEE !default;
+$success: $teal !default;
+$info: $blue !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: #F2F5FA !default;
+$dark: $gray-900 !default;
+
+$blue-100: #ceefff !default;
+$blue-200: #9ddeff !default;
+$blue-300: #70CFFF !default;
+$blue-400: #45C1FF !default;
+$blue-500: #0AADFF !default;
+$blue-600: #088acc !default;
+$blue-700: #066899 !default;
+$blue-800: #044566 !default;
+$blue-900: #ceefff !default;
+
+$indigo-100: #e0e7ff !default;
+$indigo-200: #c7d2fe !default;
+$indigo-300: #a5b4fc !default;
+$indigo-400: #818cf8 !default;
+$indigo-500: #6366f1 !default;
+$indigo-600: #4f46e5 !default;
+$indigo-700: #4338ca !default;
+$indigo-800: #3730a3 !default;
+$indigo-900: #312e81 !default;
+
+$purple-100: #f3e8ff !default;
+$purple-200: #e9d5ff !default;
+$purple-300: #d8b4fe !default;
+$purple-400: #c084fc !default;
+$purple-500: #a855f7 !default;
+$purple-600: #9333ea !default;
+$purple-700: #7e22ce !default;
+$purple-800: #6b21a8 !default;
+$purple-900: #581c87 !default;
+
+$pink-100: #fce7f3 !default;
+$pink-200: #fbcfe8 !default;
+$pink-300: #f9a8d4 !default;
+$pink-400: #f472b6 !default;
+$pink-500: #ec4899 !default;
+$pink-600: #db2777 !default;
+$pink-700: #be185d !default;
+$pink-800: #9d174d !default;
+$pink-900: #831843 !default;
+
+$red-100: #ffd2da !default;
+$red-200: #ffa5b4 !default;
+$red-300: #FF7088 !default;
+$red-400: #FF4564 !default;
+$red-500: #FF1F44 !default;
+$red-600: #cc1936 !default;
+$red-700: #991329 !default;
+$red-800: #660c1b !default;
+$red-900: #33060e !default;
+
+$orange-100: #f7dad2 !default;
+$orange-200: #f0b6a4 !default;
+$orange-300: #EA7E5D !default;
+$orange-400: #E4572E !default;
+$orange-500: #D9481C !default;
+$orange-600: #ae3a16 !default;
+$orange-700: #822b11 !default;
+$orange-800: #571d0b !default;
+$orange-900: #2b0e06 !default;
+
+$yellow-100: #faf6d7 !default;
+$yellow-200: #f5edaf !default;
+$yellow-300: #EFE281 !default;
+$yellow-400: #E9D758 !default;
+$yellow-500: #E5D138 !default;
+$yellow-600: #b7a72d !default;
+$yellow-700: #897d22 !default;
+$yellow-800: #5c5416 !default;
+$yellow-900: #2e2a0b !default;
+
+$teal-100: #d2dede !default;
+$teal-200: #a6bdbd !default;
+$teal-300: #369696 !default;
+$teal-400: #297373 !default;
+$teal-500: #205A5A !default;
+$teal-600: #1a4848 !default;
+$teal-700: #133636 !default;
+$teal-800: #0d2424 !default;
+$teal-900: #061212 !default;
+
+$body-color: $gray-900 !default;
+$text-muted: $gray-500 !default;
+
+$border-width: 1px !default;
+$border-color: $gray-200 !default;
+$border-radius: 5px !default;
+$border-radius-sm: 0.125rem !default;
+$border-radius-lg: 0.375rem !default;
+
+$container-max-widths: (
+    sm: 640px,
+    md: 768px,
+    lg: 1024px,
+    xl: 1152px
+);
+
+$font-family-base: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !default;
+$font-size-base: 1rem !default;
+$font-size-sm: 0.875rem !default;
+$font-size-lg: 1.125rem !default;
+$font-weight-bold: 600 !default;
+
+$small-font-size: 0.75rem !default;
+$line-height-lg: 1.875rem !default;
+
+$headings-font-weight: 600 !default;
+$h1-font-size: 4rem !default;
+$h2-font-size: 3rem !default;
+$h3-font-size: 2.25rem !default;
+$h4-font-size: 1.5rem !default;
+$h5-font-size: 1.25rem !default;
+$h6-font-size: 1.125rem !default;
+
+$display-font-weight: 600 !default;
+
+$display1-size: 5.5rem !default;
+$display2-size: 4rem !default;
+$display3-size: 3rem !default;
+$display4-size: 2.25rem !default;
+$display5-size: 1.5rem !default;
+
+$display-font-sizes: (
+  1: $display1-size,
+  2: $display2-size,
+  3: $display3-size,
+  4: $display4-size,
+  5: $display5-size
+) !default;
+
+$display-line-height: 1 !default;
+
+$lead-font-size: 1.25rem !default;
+$lead-font-weight: 400 !default;
+
+$box-shadow: 0px 1px 1px #C8CEDA !default;
+$box-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !default;
+$box-shadow-lg: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !default;
+$box-shadow-inset: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !default;
+
+$spacers: (
+    0: 0px,
+    1: 0.25rem,
+    2: 0.5rem,
+    3: 0.75rem,
+    4: 1rem,
+    5: 1.25rem,
+    6: 1.5rem,
+    7: 1.75rem,
+    8: 2rem,
+    9: 2.25rem,
+    10: 2.5rem,
+    11: 2.75rem,
+    12: 3rem,
+    14: 3.5rem,
+    16: 4rem,
+    20: 5rem,
+    24: 6rem,
+    28: 7rem,
+    32: 8rem,
+    36: 9rem,
+    40: 10rem,
+    44: 11rem,
+    48: 12rem,
+    52: 13rem,
+    56: 14rem,
+    60: 15rem,
+    64: 16rem,
+    72: 18rem,
+    80: 20rem,
+    96: 24rem
+) !default;
+
+$negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
+
+$alert-color: null !default;
+$alert-font-size: null !default;
+
+$alert-color: null !default;
+$alert-font-size: null !default;
+
+$alert-border-width: 1px !default;
+$alert-border-radius: 5px !default;
+
+$alert-border-top-width: $alert-border-width !default;
+$alert-border-right-width: $alert-border-width !default;
+$alert-border-bottom-width: $alert-border-width !default;
+$alert-border-left-width: $alert-border-width !default;
+
+$alert-border-top-right-radius: $alert-border-radius !default;
+$alert-border-top-left-radius: $alert-border-radius !default;
+$alert-border-bottom-right-radius: $alert-border-radius !default;
+$alert-border-bottom-left-radius: $alert-border-radius !default;
+
+$badge-font-size: 0.75rem !default;
+$badge-font-weight: 400 !default;
+$badge-color: #fff !default;
+$badge-padding-y: 0.375rem !default;
+$badge-padding-x: 0.625rem !default;
+$badge-border-radius: 5px !default;
+
+$input-btn-padding-y: 1rem !default;
+$input-btn-padding-x: 1.5rem !default;
+$input-btn-font-size: 0.875rem !default;
+$input-btn-line-height: 1.25 !default;
+
+$btn-border-radius: 5px !default;
+
+$input-placeholder-color: #838EA4 !default;
+$input-padding-y: 1rem !default;
+$input-padding-x: 1rem !default;
+
+$navbar-padding-y: 1.5rem !default;
+$navbar-padding-x: 1rem !default;
+
+$navbar-nav-link-padding-x: 1.5rem !default;
+
+$navbar-light-color: #0A2463 !default;
+$navbar-light-hover-color: #0A2463 !default;
+$navbar-light-active-color: #0A2463 !default;
+$navbar-light-disabled-color: #0A2463 !default;
+
+$nav-link-font-size: 0.875rem !default;
+$nav-link-font-weight: 500 !default;
