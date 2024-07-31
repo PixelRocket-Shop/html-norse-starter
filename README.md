@@ -8,10 +8,12 @@ This template is built using Bootstrap 5, a powerful front-end framework for fas
 
 > [Click here to view demo](https://html-norsestar-full.vercel.app/)
 
-![Template Image](https://pixelrocket-public-assets.s3.eu-west-2.amazonaws.com/github-assets/norsestar.png)
-
 > **Important:** You are currently viewing only the starter template, which includes only the homepage. The full template is available for free to users who are registered on my website and signed up to my mailing list.
 > [Click here to download the full template](https://pixelrocket.store/free-templates/html-templates/norse-star-html-bootstrap-saas-website-template)
+
+![Template Image](https://pixelrocket-public-assets.s3.eu-west-2.amazonaws.com/github-assets/norsestar.png)
+
+
 
 ## Pages
 - Homepage
